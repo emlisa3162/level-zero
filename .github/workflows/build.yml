@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-linux:
-    if: github.repository_owner == 'oneapi-src'
+    if: github.repository_owner == 'emlisa3162'
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
